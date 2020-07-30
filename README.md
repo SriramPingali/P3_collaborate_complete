@@ -3,8 +3,6 @@
 [image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
 [image2]: https://user-images.githubusercontent.com/10624937/42135622-e55fb586-7d12-11e8-8a54-3c31da15a90a.gif "Soccer"
 
-Project Report: https://medium.com/@amitpatel.gt/maddpg-91caa221d75e
-
 
 # Project 3: Collaboration and Competition
 
@@ -38,6 +36,24 @@ The environment is considered solved, when the average (over 100 episodes) of th
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
 2. Place the file in the DRLND GitHub repository, in the `p3_collab-compet/` folder, and unzip (or decompress) the file. 
+
+3. Create (and activate) a new environment with Python 3.6.
+
+ - Linux or Mac:
+    ```
+    conda create --name drlnd python=3.6
+    source activate drlnd
+    ```
+ - Windows:
+    ```
+    conda create --name drlnd python=3.6 
+    activate drlnd
+    ```
+4. Clone the repository (Link provided below), and navigate to the python/ folder. Then, install several dependencies.
+    ```
+     git clone https://github.com/udacity/deep-reinforcement-learning.git
+     cd deep-reinforcement-learning/python
+     pip install .
 
 ### Instructions
 
